@@ -45,5 +45,11 @@
     zplugin light zsh-users/zsh-autosuggestions
     zplugin light zsh-users/zs-completions
     zplugin light zdharma/fast-syntax-highlighting
-    ```    
+    ```
+* **Extensões google chrome**:
+  * react developer tools
+
+* **Outros**:
+  * Instalar o insomnia ou postman
+  * instalar o devdoc
   
