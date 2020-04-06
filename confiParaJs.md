@@ -38,5 +38,12 @@
 
     SPACESHIP_PROMPT_ADD_NEWLINE=false
     SPACESHIP_CHAR_SUFFIX=" "
-```
+    ```
+  * instalar o zplugin. nesse caso instalei o zinit
+  * inserir mais configurações no zshrc:
+    ```
+    zplugin light zsh-users/zsh-autosuggestions
+    zplugin light zsh-users/zs-completions
+    zplugin light zdharma/fast-syntax-highlighting
+    ```    
   
