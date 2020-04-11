@@ -1,7 +1,10 @@
 * No terminal:
   * sudo npm install -g @adonisjs/cli
   * adonis new "nome da api" --api-only
-  * adonis serve --dev
+  * Para rodar o servidor:
+    ```
+    adonis serve --dev
+    ```
 
 * No projeto:
   * Instalar guia de estilo:
@@ -34,3 +37,28 @@
         "source.fixAll.eslint": true,
       },
       ```
+  * Configuração do BD
+    * Escolher o banco no arquivo config/database.js
+      * rodar o comando referente ao banco. Por exemplo, o mysql:
+        ```
+        npm i --save mysql
+        ```
+      * no arquivo .env alterar os valores de DB_* para os do banco escolhido.
+      * executar no terminal: 
+        ```
+        adonis migration:run
+        ```
+  * para criar a controler de usuário:
+    ```
+    adonis make:controller User
+    ```
+    Selecinar o 'For http requests'
+
+  * listar as rotas existentes:
+    ```
+    adonis route:list
+    ```
+  * Para versões do node anteriores a 10 instalar o crypto:
+    ```
+    npm install crypto
+    ```
