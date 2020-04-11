@@ -17,7 +17,20 @@
           * Da um sim (y) pra baixar as dependencias
     * No arquivo .eslintrc.json colocar:
       ```
-      "globals": {
-        "use": true,
+      {
+        "extends": [
+            "standard"
+        ],
+        "globals": {
+            "use": true
+        },
+        "rules": {
+        }
       }
+      ```
+    * no settings.json colocar:
+      ```
+      "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+      },
       ```
