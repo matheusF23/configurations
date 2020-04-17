@@ -62,3 +62,28 @@
     ```
     npm install crypto
     ```
+  * Para criar a model, migrations e controller:
+    ```
+    adonis make:model 'Name' -m -c
+    ```
+  * Para criar validators:
+    ```
+    adonis install @adonisjs/validator
+    ```
+    * inserir no provider: 
+      '@adonisjs/validator/providers/ValidatorProvider'
+
+    ```
+    adonis make:validator 'Nome'
+    ```
+  * Para excessões:
+    ```
+    adonis make:ehandler
+    ```
+  * Para internacionalização:
+    ```
+    adonis install @adonisjs/antl
+    ```
+    * inserir no provider:
+      '@adonisjs/antl/providers/AntlProvider'
+    
