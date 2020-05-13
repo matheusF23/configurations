@@ -30,6 +30,9 @@
     SPACESHIP_CHAR_SUFFIX=" "
     ```
   * instalar o zplugin. nesse caso instalei o zinit
+    ```
+    sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+    ```
   * inserir mais configurações no zshrc:
     ```
     zplugin light zsh-users/zsh-autosuggestions
