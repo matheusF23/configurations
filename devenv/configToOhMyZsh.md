@@ -1,21 +1,3 @@
-* **Extensões vscode**:
-  * dracula
-  * Material Icon Theme
-  * color highlight
-  * Rocketseat ReactJS
-  * Rocketseat React Native
-
-* **file/preferences/setings.json**:
-  * "editor.rulers": [80, 120]
-  * "editor.renderLineHighlight": "gutter"
-  * "editor.tabSize": 2,
-  * "emmet.includeLanguages": {"javascript": "javascriptreact"}
-  * "emmet.syntaxProfiles": {"javascript": "jsx"}
-  * "javascript.updateImportsOnFileMove.enabled": "never"
-  * "editor.parameterHints.enabled": false
-  * "breadcrumbs.enabled": true,
-  * "javascript.suggest.autoImports": false
-
 * **terminal**:
   * instalar o oh my zsh \
     ```
@@ -54,10 +36,3 @@
     zplugin light zsh-users/zsh-completions
     zplugin light zdharma/fast-syntax-highlighting
     ```
-* **Extensões google chrome**:
-  * react developer tools
-
-* **Outros**:
-  * Instalar o insomnia ou postman
-  * instalar o devdoc
-  
