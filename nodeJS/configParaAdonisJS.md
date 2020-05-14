@@ -1,5 +1,5 @@
 * No terminal:
-  * sudo npm install -g @adonisjs/cli
+  * npm install -g @adonisjs/cli
   * adonis new "nome da api" --api-only
   * Para rodar o servidor:
     ```
