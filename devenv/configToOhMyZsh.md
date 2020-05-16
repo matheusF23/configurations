@@ -39,4 +39,10 @@
     zplugin light zsh-users/zsh-autosuggestions
     zplugin light zsh-users/zsh-completions
     zplugin light zdharma/fast-syntax-highlighting
+   
+   * Para mostrar o virtualenv no terminal:
+     ```
+     # Show virtualenv
+     export VIRTUAL_ENV_DISABLE_PROMPT=
+     ``'
     ```
