@@ -44,5 +44,4 @@
      ```
      # Show virtualenv
      export VIRTUAL_ENV_DISABLE_PROMPT=
-     ``'
-    ```
+     ```
