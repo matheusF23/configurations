@@ -3,6 +3,9 @@
 - In the first place, you have to install git to clone the Git repository of the project. Open a Terminal, and then, type:\
   ```sudo apt install git```
 
+- Install gnome-tweaks:
+  Search and install tweaks (ajustes do gnome) on ubuntu store
+
 - Now you can clone the first repository (Icon set), to do it, run:\
   ```git clone https://github.com/daniruiz/flat-remix```
 
