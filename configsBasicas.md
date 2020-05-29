@@ -42,3 +42,7 @@
 ---
 
 [**Início**](https://github.com/matheusF23/configurations#configura%C3%A7%C3%B5es-p%C3%B3s-instala%C3%A7%C3%A3o-ubuntu) | [**Próxima**](https://github.com/matheusF23/configurations/blob/master/git%26ssh.md)
+
+---
+
+Feito por [Alef Figueiredo](https://github.com/figueiredo-alef)
