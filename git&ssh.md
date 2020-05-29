@@ -40,7 +40,7 @@
 
 ---
 
-[**Início**](https://github.com/matheusF23/configurations#configura%C3%A7%C3%B5es-p%C3%B3s-instala%C3%A7%C3%A3o-ubuntu) | [**Anterior**](https://github.com/matheusF23/configurations/blob/master/configsBasicas.md) | [**Próxima**]()
+[**Início**](https://github.com/matheusF23/configurations#configura%C3%A7%C3%B5es-p%C3%B3s-instala%C3%A7%C3%A3o-ubuntu) | [**Anterior**](https://github.com/matheusF23/configurations/blob/master/configsBasicas.md) | [**Próxima**](https://github.com/matheusF23/configurations/blob/master/temaFlatRemix.md)
 
 ---
 
