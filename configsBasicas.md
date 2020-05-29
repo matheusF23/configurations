@@ -38,3 +38,7 @@
     - Em dash-max-icon-size altere o valor para: 25;
     - Em dock-position altere o valor para: RIGHT;
     - Ative show-apps-at-top.
+
+---
+
+[**Início**](https://github.com/matheusF23/configurations/blob/master/README.md) | [**Próxima**](https://github.com/matheusF23/configurations/blob/master/git%26ssh.md)
