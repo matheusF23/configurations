@@ -1,6 +1,6 @@
-# Extenses VScode
+# Extensôes VScode
 
-**Extensions**
+**Extensôens**
 * Code Runner
 * Color Highlight
 * Docker
