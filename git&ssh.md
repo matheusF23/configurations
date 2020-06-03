@@ -15,9 +15,14 @@
   $ git config --global user.email "user e-mail"
   ```
 
-- Setar editor (opcional):
+- Setar editor (opcional):\
+  instale o vim:
   ```
-  $ git config --global core.editor code
+  sudo apt install vim
+  ```
+
+  ```
+  $ git config --global core.editor vim
   ```
 
 - Definir Alias hist no arquivo .gitconfig (para gerar a árvore de commits estilizada):
