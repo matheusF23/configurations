@@ -29,6 +29,23 @@
   ```
   $ sudo snap install code --classic
   ```
+
+* Instalar o vim:
+  ```
+  sudo apt install vim
+  ```
+
+* Instalar o tmux:
+  ```
+  sudo apt install tmux
+  ```
+  
+
+* Instalar o terminal tilix:
+  ```
+  sudo apt install tilix
+  ```
+  
 ---
 
 [**Início**](https://github.com/matheusF23/configurations#configura%C3%A7%C3%B5es-p%C3%B3s-instala%C3%A7%C3%A3o-ubuntu) | [**Anterior**](https://github.com/matheusF23/configurations/blob/master/temaFlatRemix.md) | [**Próxima**](https://github.com/matheusF23/configurations/blob/master/ohMyZsh.md)
