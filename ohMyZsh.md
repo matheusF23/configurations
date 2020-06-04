@@ -52,7 +52,7 @@
   )
 
   SPACESHIP_PROMPT_ADD_NEWLINE=false
-  SPACESHIP_CHAR_SYMBOL="❯"
+  SPACESHIP_CHAR_SYMBOL="»"
   SPACESHIP_CHAR_SUFFIX=" "
   ```
   * Salve o arquivo. Reinicie o Terminal.
