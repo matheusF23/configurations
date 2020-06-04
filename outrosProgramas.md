@@ -3,11 +3,10 @@
 
 **IMPORTANTE**: Alguns programas só serão necessários instalar caso tenha optado pela Instalação Mínima do Ubuntu.
 
-* Instalar a versão mais recente do Chrome requer [baixar o pacote .deb](https://www.google.com/intl/pt-BR/chrome/)
 
 * Instalar a versão mais recente do Thunderbird:
   ```
-  $ sudo snap install tunderbird
+  $ sudo snap install --edge thunderbird
   ```
 
 * Instalar a versão mais recente do Gnome-Calendar:
