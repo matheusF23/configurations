@@ -27,17 +27,24 @@
 
 - Pressione a tecla Super (ícone do Windows) e pesquise por Suporte a Idiomas. Será realizada uma busca por atualizações automaticamente. Reinicie a Sessão caso seja solicitado.
 
+- Instalar a versão mais recente do Chrome requer [baixar o pacote .deb](https://www.google.com/intl/pt-BR/chrome/)
+
 - Altere a versão padrão do Python:
   ```
-  $ sudo ln -sf /usr/bin/python3.8 /usr/bin/python
+  $ sudo ln -sf /usr/bin/python3.6 /usr/bin/python
   ```
 
 - Instale o dconf Editor via Ubuntu Store.
   - Abra o programa e na Busca digite dash-to-dock;
-    - Em click-action altere o valor para: minimize-or-overview;
-    - Em dash-max-icon-size altere o valor para: 25;
-    - Em dock-position altere o valor para: RIGHT;
-    - Ative show-apps-at-top.
+  ```
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock click-action minimize-or-overview
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position RIGHT
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock transparency-mode FIXED
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock unity-backlit-items true
+    ```
 
 ---
 
