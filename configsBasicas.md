@@ -38,7 +38,7 @@
   - Abra o programa e na Busca digite dash-to-dock;
   ```
     $ gsettings set org.gnome.shell.extensions.dash-to-dock click-action minimize-or-overview
-    $ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 64
+    $ gsettings set org.gnome.shell.extensions.dash-to-dock dash-max-icon-size 44
     $ gsettings set org.gnome.shell.extensions.dash-to-dock dock-fixed false
     $ gsettings set org.gnome.shell.extensions.dash-to-dock dock-position RIGHT
     $ gsettings set org.gnome.shell.extensions.dash-to-dock extend-height false
