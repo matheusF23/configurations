@@ -11,14 +11,19 @@
 
 * Instalar a versão mais recente do Gnome-Calendar:
   ```
-  $ sudo snap install gnome-calendar
+  $ sudo apt install gnome-calendar
   ```
-  
+    
+* Instalar a versão mais recente do Gnome-Calculator:
+  ```
+  $ sudo apt install gnome-calculator
+  ```
+ 
 * Instalar a versão mais recente do Telegram:
   ```
   $ sudo snap install telegram-desktop
-  ```
-
+  ```  
+ 
 * Instalar a versão mais recente do VLC:
   ```
   $ sudo snap install vlc
@@ -28,21 +33,24 @@
   ```
   $ sudo snap install code --classic
   ```
+  * Checar atualizações:
+  ```
+  $ sudo snap refresh code 
+  ```
 
 * Instalar o vim:
   ```
-  sudo apt install vim
+  $ sudo apt install vim
   ```
 
 * Instalar o tmux:
   ```
-  sudo apt install tmux
+  $ sudo apt install tmux
   ```
-  
 
 * Instalar o terminal tilix:
   ```
-  sudo apt install tilix
+  $ sudo apt install tilix
   ```
   
 ---
