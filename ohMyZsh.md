@@ -76,6 +76,9 @@
   ```
   # Show virtualenv
   export VIRTUAL_ENV_DISABLE_PROMPT=
+  
+  # flutter (if have flutter sdk in ~/development/)
+  export PATH="$PATH:$HOME/development/flutter/bin"
   ```
 
   * Salve o arquivo e reinicie a Sessão.
