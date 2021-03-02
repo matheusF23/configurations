@@ -12,6 +12,8 @@
 * Python
 * Rocketseat ReactNative
 * Rocketseat ReactJS
+* SQLite
+* WakaTime
 * YAML
 
 **settings.json**
@@ -19,9 +21,11 @@
 {
     "workbench.colorTheme": "Dracula",
     "workbench.iconTheme": "material-icon-theme",
-    "editor.rulers": [80, 120],
+    "editor.rulers": [
+        80,
+        120
+    ],
     "editor.renderLineHighlight": "gutter",
-    "editor.tabSize": 2,
     "emmet.includeLanguages": {
         "javascript": "javascriptreact"
     },
@@ -32,8 +36,21 @@
     "editor.parameterHints.enabled": false,
     "breadcrumbs.enabled": true,
     "javascript.suggest.autoImports": false,
-    "window.zoomLevel": 0,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "terminal.integrated.fontSize": 16,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact"
+    ],
+    "editor.renderWhitespace": "all"
 }
 ```
 ---
