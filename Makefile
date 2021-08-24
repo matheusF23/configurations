@@ -42,9 +42,35 @@ continue-zsh:
 install-zinit:
 	sh -c "$$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
 
-test:
 	echo '\nzinit light zsh-users/zsh-autosuggestions\nzinit light zsh-users/zsh-completions\nzinit light zdharma/fast-syntax-highlighting' >> .zshrc
 
 	# Mostrar o virtualenv no terminal:
 	echo "\n# Show virtualenv\nexport VIRTUAL_ENV_DISABLE_PROMPT=" >> .zshrc
 
+install-docker:
+	# Uninstall old versions
+	# sudo apt-get remove docker docker-engine docker.io containerd runc
+
+	# Setup the repository
+	sudo apt-get update
+	sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    lsb-release
+
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
+
+	echo \
+  "deb [arch=amd64 signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+  $$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+	# Install docker engine
+	sudo apt-get update
+	sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+groupAdd-docker:
+	# Verificar se não existe o grupo antes de rodar
+	sudo groupadd docker
+	sudo usermod -aG docker $$USER
