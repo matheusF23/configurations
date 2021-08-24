@@ -2,17 +2,19 @@
 
 **Extensõens**
 * Code Runner
+* CodeMetrics
 * Color Highlight
 * Docker
 * Dracula Official
 * Edge Template Support
+* Editor Config for vscode
+* Eslint
 * Git Graph
+* GitHub Theme
+* GitLens
 * Live Share
 * Material Icon Theme
 * Python
-* Rocketseat ReactNative
-* Rocketseat ReactJS
-* SQLite
 * WakaTime
 * YAML
 
