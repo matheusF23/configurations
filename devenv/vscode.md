@@ -1,15 +1,20 @@
 **Extensions**
 * Code Runner
+* CodeMetrics
 * Color Highlight
 * Docker
-* Dracula Official
 * Edge Template Support
+* EditorConfig for vscode
+* Eslint
 * Git Graph
+* GitLens
+* Live server
 * Live Share
 * Material Icon Theme
 * Python
-* Rocketseat ReactNative
-* Rocketseat ReactJS
+* Thunder Client
+* vscode-proto3
+* Wakatime
 * YAML
 
 **settings.json**
