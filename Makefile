@@ -40,7 +40,7 @@ continue-zsh:
 
 
 install-zinit:
-	sh -c "$$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+	sh -c "$$(curl -fsSL https://git.io/zinit-install)"
 
 	echo '\nzinit light zsh-users/zsh-autosuggestions\nzinit light zsh-users/zsh-completions\nzinit light zdharma/fast-syntax-highlighting' >> .zshrc
 
