@@ -10,8 +10,12 @@ install-git:
 	sudo apt install vim
 	git config --global core.editor vim
 
-	# set alias hist
+	# set aliases
 	git config --global alias.hist 'log --pretty=format:"%h %ad | %s%d [%an]" --graph --date=short'
+	git config --global alias.co checkout
+	git config --global alias.ci commit
+	git config --global alias.st status
+	git config --global alias.br branch
 
 ssh-generate:
 	ssh-keygen -t rsa -b 4096 -C "figueiredo.matheus06@gmail.com"
