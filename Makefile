@@ -16,6 +16,7 @@ install-git:
 	git config --global alias.ci commit
 	git config --global alias.st status
 	git config --global alias.br branch
+	git config --global alias.ps 'push origin HEAD'
 
 ssh-generate:
 	ssh-keygen -t rsa -b 4096 -C "figueiredo.matheus06@gmail.com"
