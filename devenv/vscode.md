@@ -36,5 +36,6 @@
     "breadcrumbs.enabled": true,
     "javascript.suggest.autoImports": false,
     "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": true
 }
 ```
